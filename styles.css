@@ -1,0 +1,55 @@
+/* css properties */
+body {
+  background-color: #94B49F;
+  text-align: center;
+}
+
+#level-title{
+  font-family: 'Bebas Neue', cursive;
+  color: #FCF8E8;
+  font-size: 5rem;
+  margin-top: 0.5rem;
+}
+
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #DF7861;
+}
+
+.green {
+  background-color: #76549A;
+}
+
+.blue {
+  background-color:  #D61C4E;
+}
+
+.yellow {
+  background-color: #FEDB39;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
